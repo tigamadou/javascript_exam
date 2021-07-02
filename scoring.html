@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="./css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="./css/scoring.css">
+    <title>DIVE INTO SAMPLE JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td colspan="2">
+                    <h1 class="title">Scoring</h1>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="name">Name</label>
+                </th>
+                <td>
+                    John
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label for="name">National language</label>
+                </th>
+                <td>
+                    <input class="input" type="number" id="national_language" value=0>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label for="name">English grammar</label>
+                </th>
+                <td>
+                    <input class="input" type="number" id="english" value=0>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label for="name">Mathematics：</label>
+                </th>
+                <td>
+                    <input class="input" type="number" id="mathematics" value=0>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label for="name">Science：</label>
+                </th>
+                <td>
+                    <input class="input" type="number" id="science" value=0>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label  for="name">Social studies</label>
+                </th>
+                <td>
+                    <input class="input" type="number" id="society" value=0>
+                </td>
+            </tr>
+            <tr>
+                <th>
+
+                    <div class="data">
+                        <p>SUM</p>
+                        <p id="sum_indicate">0</p>
+                    </div>
+                </th>
+                <td >
+                    
+
+                        <div class="data">
+                            <p>AVG</p>
+                            <p id="average_indicate">0</p>
+                        </div>
+                    
+                    
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <div class="btn " id="btn-evaluation">
+
+                        <span  >Grade</span> 
+                        <label id="evaluation"></label>
+                    </div>
+                </th>
+                <td>
+                    <div class="btn "  id="btn-judge">
+
+                        <span >Pass/Fail</span>
+                        <label id="judge">-</label>
+                    </div>
+                </td>
+            </tr>
+           
+            <tr>
+                <td colspan="2">
+                    <p class="btn btn-warning" id="btn-declaration">Result</p>
+                    <p id="declaration">-</p>
+                </td>
+                
+            </tr>
+        </table>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/scoring.js"></script>
+</body>
+
+</html>
