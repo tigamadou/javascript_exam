@@ -52,9 +52,9 @@ body {
     margin-right: auto;
     margin-left: auto;
     border-radius: 8px;
-    box-shadow: 0 24px 25px rgba(0,0,0,0.1), 0 50px 10px -30px rgba(0,0,0,0.2);
+    
    
-    background-color: #fff;
+ 
   }
   .title{
       text-align: center;
@@ -92,13 +92,15 @@ body {
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 16px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all 0.25s ease-in-out;
     background-color: #2980b9;
     color: #fff;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.6);
+    margin-bottom: 16px;
   }
 
   .btn-warning {
@@ -112,9 +114,10 @@ body {
   }
   .alert {
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border: 8px solid transparent;
     border-radius: 4px;
+    
   }
   .alert-success {
     color: #000;
@@ -146,9 +149,6 @@ body {
       
       color: rgb(156, 156, 156);
       font-weight: 700;
+      font-size: 1.6rem;
   }
 
-  .data p:last-child{
-      font-size: 1.6rem;
-      margin-bottom: 8px;
-  }
